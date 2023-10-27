@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+  }
+  
+  #title {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  button {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .bass.drum {
+    background-color: #f44336;
+  }
+  
+  .crash.cymbal {
+    background-color: #2196F3;
+  }
+  
+  .ride.cymbal {
+    background-color: #9C27B0;
+  }
+  
+  .medium.tom {
+    background-color: #FFC107;
+  }
+  
+  .small.tom {
+    background-color: #795548;
+  }
+  
+  .floor.tom {
+    background-color: #607D8B;
+  }
+  
+  .snare {
+    background-color: #E91E63;
+  }
+  
